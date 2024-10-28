@@ -1,0 +1,241 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box; 
+}
+
+
+body {
+    font-family: "Montserrat Alternates", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.781);
+    background-color: #e7dfd8;
+    overflow-x: hidden; 
+}
+
+/*******Navbar ******/
+
+.navbar {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    justify-content: space-between; 
+    padding: 20px; 
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+#nombre {
+    font-family: "Tangerine", cursive;
+    font-size: 50px;
+    margin: 0; 
+    text-shadow: 2px 2px 5px #bf6de6;
+}
+
+.navbar-opciones {
+    display: flex; 
+    align-items: center; 
+    margin-left: 90px;
+    margin-bottom: 0;
+    list-style: none; 
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.navbar-opciones li a {
+    text-decoration: none; 
+    color: rgba(0, 0, 0, 0.781); 
+    margin: 0 40px; 
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #bf6de6;
+}
+
+.navbar li a:hover {
+    color: #bf6de6; 
+}
+
+/*******Principal ******/
+
+main {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    padding: 50px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px 5px #bf6de6;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+/*******Sobre Mi ******/
+
+.informacionSobremi{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+
+#imagenPerfil{
+    width: 250px;        
+    height: 250px;      
+    border-radius: 50%; 
+    object-fit: cover; 
+    box-shadow: 2px 2px 5px #bf6de6;
+}
+
+.texto-sobremi {       
+    line-height: 1.6;
+    text-align: center; 
+    width: 60%;
+    object-fit: cover; 
+}
+
+.cv{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.cv i{
+    filter: drop-shadow(2px 2px 5px #bf6de6);
+}
+
+/*******Habilidades ******/
+
+
+.filas-habilidades{
+
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 0 150px;
+}
+
+.informacionHabilidades{
+    margin: 0;
+    padding: 0;
+    width: 50vw; 
+}
+
+.subHabilidades{
+
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+
+.frontend{
+
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: start;
+    height: 40px;
+}
+
+.frontend img{
+    width: auto;
+    height: 100%;
+}
+
+/*******Proyectos ******/
+
+.proyecto {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    
+}
+
+.card {
+    height: 100%; 
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #d1a6e5;
+
+}
+
+.card-body {
+
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.btn {
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px #bf6de6;
+
+}
+
+.btn:hover {
+    background-color: #bf6de6 ; 
+    transform: scale(1.2); 
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+/*******Contacto ******/
+
+.informacionContacto{
+    margin: 0;
+    padding: 0;
+    width: 50vw; 
+    height: 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 50px;
+}
+
+.logosContacto{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+.logosContacto i{
+    width: auto;
+    margin: 0 15px;
+    filter: drop-shadow(2px 2px 5px #bf6de6);
+}
+
+a:hover i {
+    color: #bf6de6 !important; 
+    transform: scale(1.2); 
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+
+/*************/
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #222;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

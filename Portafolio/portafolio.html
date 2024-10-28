@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="portafolio.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 id="nombre">Carolina Lopez</h1>
+            <ul class="navbar-opciones">
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main>
+
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <div class="informacionSobremi">
+                <div>
+                    <img id="imagenPerfil" src="./Imagenes/foto.png" alt="foto">
+                </div>
+                <div class="texto-sobremi">
+                    <p>Soy Ingeniera Electrónica con experiencia en proyectos de domótica, donde he aplicado mi conocimiento técnico para desarrollar soluciones automatizadas, que han ayudado en la mejora de calidad de vida y la eficiencia energética.<br><br>Tengo un interés creciente en el desarrollo web, con un fuerte deseo de aprender y crecer en el mundo del desarrollo, estoy profundizando en tecnologías Front End y Back End llevando a cabo el Bootcamp de Desarrolladora Junior Full-Stack/Java en Generation Colombia, buscando integrar mis conocimientos en IoT con el desarrollo Full Stack.<br><br>Aunque mi experiencia está en la ingeniería y la automatización, estoy entusiasmada por la posibilidad de aplicar mis conocimientos y habilidades en nuevos desafíos dentro del campo del desarrollo web, ya que mi experiencia en proyectos me ha brindado bases sobre la comprensión de dispositivos, la importancia de la usabilidad y la funcionalidad en el diseño de soluciones tecnológicas.<br><br>Soy una persona creativa, resolutiva, orientada al detalle y con un fuerte compromiso con la calidad en cada proyecto que emprendo.</p>
+                    <div class="cv">
+                        <a href="./CVCarolinaLopez.pdf" target="_blank"><i class="fa-solid fa-user fa-2xl" style="color: #000000;"></i></a>
+                        <h6>Explora mi CV</h6>
+                    </div>
+                </div>
+            </div>   
+        </section>
+
+        <section id="habilidades" class="habilidades">
+            <h2>Habilidades</h2>
+            <div class="container">
+                <div class="row filas-habilidades">
+                    <div class="col-6 col-sm-3">
+                        <div class="informacionHabilidades">
+                            <h3 class="subHabilidades">Frontend</h3>
+                            <div class="frontend">
+                                <img src="./Imagenes/html.png" alt="HTML">
+                                <img src="./Imagenes/css.png" alt="CSS">
+                                <img src="./Imagenes/bt.png" alt="Bootstrap">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                        <div class="informacionHabilidades">
+                            <h3 class="subHabilidades">Backend</h3>
+                            <div class="frontend">
+                                <img src="./Imagenes/node.png" alt="Node.js">
+                                <img src="./Imagenes/spring.png" alt="Spring">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Force next columns to break to new line -->
+                    <div class="w-100"></div>
+                    <div class="col-6 col-sm-3">
+                        <div class="informacionHabilidades">
+                            <h3 class="subHabilidades">Lenguajes de Programación</h3>
+                            <div class="frontend">
+                                <img src="./Imagenes/js.png" alt="JavaScript">
+                                <img src="./Imagenes/java.png" alt="Java">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                        <div class="informacionHabilidades">
+                            <h3 class="subHabilidades">Control de versiones</h3>
+                            <div class="frontend">
+                                <img src="./Imagenes/git.png" alt="Git">
+                                <img src="./Imagenes/github.png" alt="GitHub">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <a href="#" class="btn btn-primary">Ver</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <a href="#" class="btn btn-primary">Ver</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Ver</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <a href="#" class="btn btn-primary">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="informacionContacto">
+                <div class="logosContacto">
+                    <a href="https://github.com/Carylo" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color: #000000;"></i></a>
+                    <a href="https:/linkedin.com/in/carolinalopezmelo" target="_blank"><i class="fa-brands fa-linkedin fa-2xl" style="color: #000000;"></i></a>
+                    <a href="mailto:ladycarolinalopez08@hotmail.com" target="_blank"><i class="fa-sharp fa-solid fa-envelope fa-2xl" style="color: #000000;"></i></a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Carolina López.</p>
+    </footer>
+
+    <script src="portafolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
